@@ -1,0 +1,5 @@
+<app-loader *ngIf="!gifs"/>
+<section *ngIf="gifs" >
+    <img [src]="gif.url" *ngFor="let gif of gifs" [alt]="gif.title">
+</section>
+

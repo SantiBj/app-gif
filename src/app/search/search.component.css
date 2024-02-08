@@ -1,0 +1,49 @@
+section {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    min-width: 200px;
+}
+
+button {
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: purple;
+    font-family: cursive;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background: #6a6a6a;
+    cursor: pointer;
+    transition: 10ms;
+}
+
+label {
+    font-weight: 700;
+    font-style: italic;
+    font-size:25px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.search {
+    gap: 5px;
+    display: flex;
+}
+
+input {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+}

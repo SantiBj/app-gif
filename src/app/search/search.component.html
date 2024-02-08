@@ -1,0 +1,18 @@
+<section>
+  <section>
+      <label for="search"
+        >Buscador de Gifs</label
+      >
+      <div class="search">
+        <input
+          [(ngModel)]="searchUser"
+          placeholder="Ej: Dragon ball"
+          type="text"
+          name="search"
+          id="search"
+        />
+        <button (click)="sendSearch()">Buscar</button>
+      </div>
+      <p>{{ error }}</p>
+  </section>
+</section>
